@@ -54,7 +54,7 @@ SELECT [id]
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return null;
             }

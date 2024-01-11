@@ -13,6 +13,9 @@ GO
 CREATE USER [testUser] FOR LOGIN [testUser] WITH DEFAULT_SCHEMA=[dbo]
 GO
 
+EXEC sp_addrolemember N'db_datareader', N'testUser'
+GO
+
 USE [vinoteket-test]
 GO
 
